@@ -1,0 +1,432 @@
+
+
+body
+{
+    /* width: 1920px; */
+    background-image: url(images/header.jpg);
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    background-size: contain; /* Ou 100%, mÃªme rÃ©sultat. */
+    margin-top: 10px;
+    font-family: "Montserrat", "Playfair Display", "Raleway", sans-serif;
+    color: #a0a0a0;
+}
+
+button
+{
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: black;
+    text-align: center;
+}
+
+h1
+{
+    /* font-family: "Montserrat", sans-serif; */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+h3
+{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+hr
+{
+    margin-top: -25px;
+}
+
+.hover
+{
+    background-color: #00b0ff;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.gros_titre
+{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 10em;
+    opacity: 0.03;
+}
+
+/* EN-TÃŠTE. */
+header
+{
+    height: 70px;
+    text-align: center;
+    margin-bottom: 135px;
+}
+#header_facebook
+{
+    width: 36px;
+    height: 36px;
+}
+
+#header_instagram
+{
+    width: 36px;
+    height: 36px;
+}
+
+#header_mail
+{
+    width: 36px;
+    height: 36px;
+}
+#titres
+{
+    height: 90px;
+    margin-bottom: 150px;
+    font-family: "Playfair Display", sans-serif;
+    font-style: italic;
+}
+
+/* ACHAT. */
+
+#achat
+{
+    height: 615px;
+    margin-bottom: 170px;
+}
+
+#achat_container
+{
+    background-color: white;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+#achat1
+{
+    background-image: url(images/coin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+}
+
+#achat2
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#achat_menu_planche
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+#achat_menu_planche ul
+{
+    display: flex;
+    /* justify-content: flex-start; */
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px solid #d9d9d9; /* Couleur noir à 15% d'opacité soit : #d9d9d9 ou rgb(217, 217, 217) ou rgba(0, 0, 0, 0.15). */
+}
+
+#achat_menu_planche ul li
+{
+    /* padding: 5px; */
+    margin-right: 10px;
+}
+
+h1 a
+{
+    /* font-family: "Montserrat", sans-serif; */
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+}
+
+h1 a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav
+{
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-size: 0.9em; */
+    /* color: black; */
+    margin-top: 5px;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a
+{
+    color: black;
+    padding: 5px;
+}
+
+nav ul li a:hover
+{
+    color: white;
+    background-color: #00b0ff;
+    text-decoration: none;
+}
+.achat_miniatures_planches_active
+{
+    border: 3px solid #00b0ff !important;
+}
+
+.achat_fleche
+{
+    background-color: #f2d800;
+    /* height: 30px; */
+    /* margin-top: 15px; */
+    /* padding-top: 2px; */
+    /* box-sizing: border-box; Ne semble pas fonctionner. */
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    top: 2px;
+}
+
+.achat_fleche img
+{
+    margin-bottom: 1px;
+}
+#equipe
+{
+    height: 440px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+#equipe_container
+{
+    height: 600px;
+    position: relative;
+    top: -75px;
+}
+#equipe1:hover, #equipe2:hover, #equipe3:hover, #equipe4:hover /* Au lieu de ".equipe:hover". */
+{
+    background-color: #00b0ff;
+    z-index: 6;
+}
+
+.equipe
+{
+    width: 240px;
+    background-color: white;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    /* position: relative; */
+    /* right: 10%; */
+    border-radius: 3px;
+}
+
+
+.equipe img[src*="team"]
+{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.equipe_fleche
+{
+    border-radius: 50%;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+    padding: 18px;
+    border: 2px solid #e6e6e6;
+}
+
+.equipe_fleche:hover
+{
+    border: 2px solid white;
+    background-color: #00b0ff;
+}
+
+.equipe_nom
+{
+    font-size: 1.3em;
+    color: #00b0ff;
+    margin: 0;
+}
+
+.equipe:hover .equipe_nom
+{
+    color: white;
+}
+#equipe_suivant
+{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin-top: 140px; /* 120px avec l'image de la flèche bleu sur fond blanc avec contour et ombre. */
+}
+
+#equipe1
+{
+    position: absolute;
+    left: 10%;
+    z-index: 4;
+}
+
+#equipe2
+{
+    position: absolute;
+    left: 29.7%;
+    top: 5%;
+    z-index: 2;
+}
+
+#equipe3
+{
+    position: absolute;
+    right: 29.7%;
+    z-index: 3;
+}
+
+#equipe4
+{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    z-index: 1;
+}
+
+.equipe_nom_js
+{
+    color: white;
+}
+
+.equipe_vague
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.equipe_details
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+.equipe:hover .equipe_details
+{
+    color: #b3e7ff;
+}
+
+.equipe_details_js
+{
+    color: #b3e7ff;
+}
+
+
+.equipe_photo
+{
+    margin-bottom: 10px;
+}
+
+.blog_texte
+{
+    text-align: left;
+    /* padding-right: 15%; */
+    /* padding-left: 15%; */
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: #787878;
+}
+
+.blog_carte:hover .blog_texte
+{
+    color: #0022ff;
+}
+
+.blog_carte
+{
+    /* padding: 0; */
+}
+
+.blog_carte:hover
+{
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.blog_carte_colonne_photo
+{
+    padding: 0;
+    background-color: black;
+}
+
+.blog_photo
+{
+    width: 100%;
+    opacity: 0.8;
+}
+
+.blog_carte:hover .blog_photo
+{
+    opacity: 1;
+}
+
+.resaux_sociaux_instagram_photo
+{
+    padding: 0;
+}
+
+.resaux_sociaux_instagram_photo img
+{
+    width: 100%;
+}
+
+
+.reseaux_sociaux_facebook_bouton
+{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6f7f9;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.reseaux_sociaux_facebook_bouton span
+{
+    margin-top: 4px;
+}
+
+
+footer
+{
+    height: 425px;
+    padding-top: 50px;
+    padding-bottom: 50px; /* Sert uniquement pour l'affichage mobile mais aucun effet sur l'affichage classique donc pas besoin de le mettre dans une media querie. */
+    background-color: black;
+    font-family: "Raleway";
+    color: #4d4d4d;
+}
