@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.site{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ch1{
+    margin-left: 150px;
+    height: 150px;
+    width: 150px;
+    border: solid 2px black;
+}
+.ch2{
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+}
+.q{
+
+    height: 150px;
+    width: 150px;
+    border: solid 2px black;
+}
+.ch3{
+    height: 150px;
+    width: 500px;
+    border: solid 2px black;
+}
