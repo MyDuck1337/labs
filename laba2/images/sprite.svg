@@ -1,0 +1,62 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="400">
+  <defs>
+    <path id="zigzag" d="M8.42,5.31L4.64,1.44.69,5.28" fill-opacity="0" stroke-width="2"/>
+    <path id="arrow" d="m9.25341,13l-7,-6l7,-6M3.25341,7l16,0" fill="none" stroke-width="2"/>
+    <path id="cross" d="M13 0L0 13M13 13L0 0"/>
+    <path id="logo-facebook" d="M6.25 0C3.92 0 2.41 1.55 2.41 3.94v1.81H.33a.33.33 0 0 0-.33.33v2.63c0 .18.15.33.33.33h2.08v6.63c0 .18.15.33.33.33h2.72c.18 0 .33-.15.33-.33V9.04h2.44c.18 0 .32-.15.32-.33V6.08c0-.09-.03-.17-.09-.23s-.15-.1-.23-.1H5.79V4.21c0-.74.17-1.11 1.14-1.11h1.39c.18 0 .33-.15.33-.33V.33A.33.33 0 0 0 8.32 0H6.25z"/>
+    <path id="logo-instagram" d="M18.43.05l.2.05.19.08.19.09.17.12.16.13.14.14.13.16.12.17.09.19.08.19.05.2.04.21L20 2v16l-.01.22-.04.21-.05.2-.08.19-.09.19-.12.17-.13.16-.14.14-.16.13-.17.12-.19.09-.19.08-.2.05-.21.04L18 20H2l-.22-.01-.21-.04-.2-.05-.19-.08-.19-.09-.17-.12-.16-.13-.14-.14-.13-.16-.12-.17-.09-.19-.08-.19-.05-.2-.04-.21L0 18V2l.01-.22.04-.21.05-.2.08-.19.09-.19.12-.17.13-.16.14-.14.16-.13.17-.12.19-.09.19-.08.2-.05.21-.04L2 0h16l.22.01.21.04zM2 17.5v.05l.02.06.02.05.03.04.03.05.05.05.05.04.06.04.07.04.08.04.09.04h15l.08-.01.07-.01.07-.02.06-.04.06-.04.05-.04.04-.06.03-.06.02-.07.02-.07V9h-2.1l.02.08.03.09.01.09.01.1.01.09.01.1.01.09V10l-.07.88-.19.85-.3.79-.41.74-.51.67-.59.59-.67.51-.74.41-.79.3-.85.19L10 16l-.88-.07-.85-.19-.79-.3-.74-.41-.67-.51-.59-.59-.51-.67-.41-.74-.3-.79-.19-.85L4 10v-.36l.01-.09.01-.1.01-.09.01-.1.01-.09.03-.09L4.1 9H2v8.5zM7.64 6.77l-.87.87-.57 1.1L6 10l.2 1.26.57 1.1.87.87 1.1.56L10 14l1.26-.21 1.1-.56.87-.87.57-1.1L14 10l-.2-1.26-.57-1.1-.87-.87-1.1-.57L10 6l-1.26.2-1.1.57zm7.66-4.73l-.16.1-.1.15-.04.21v2l.04.2.1.16.16.1.2.04h2l.14-.03.14-.1.11-.15.11-.22v-2l-.04-.21-.1-.15-.16-.1-.2-.04h-2l-.2.04z"/>
+    <path id="logo-email" d="M20 1.4l-6.1 6.2 6 6v-12l.1-.2zm-9.5 9.7a.7.7 0 0 1-.5.2.6.6 0 0 1-.4-.2L7 8.7 1 14.9l.4.1h17.2c.3 0 .5 0 .7-.2L13 8.6a572.5 572.5 0 0 1-2.5 2.5zM19.3.2a1.4 1.4 0 0 0-.7-.2H1.4L.5.3 10 9.8 19.3.2zM0 13.5v.4l6.1-6.2-6.1-6v11.8z"/>
+    <path id="star" d="M9.16 4.61l4.84.74-3.5 3.58.83 5.07L7 11.61 2.67 14l.83-5.07L0 5.35l4.84-.74L7 0l2.16 4.61z"/>
+    <path id="delimiter-location" d="M9 4.57C9 2.05 6.99 0 4.5 0C2.01 0 0 2.05 0 4.57C0 7.1 2.01 9.15 4.5 13C6.99 9.15 9 7.1 9 4.57Z M6 4.5C6 5.33 5.33 6 4.5 6C3.68 6 3 5.33 3 4.5C3 3.68 3.68 3 4.5 3C5.33 3 6 3.68 6 4.5Z"/>
+    <filter id="grayscale-sepia">
+      <feColorMatrix in="SourceGraphic" type="matrix" values=" 0 0 0 0 .1
+                                                               0 0 0 0 .1
+                                                               0 0 0 0 .1
+                                                               0 0 0 1 0"/>
+    </filter>
+    <g id="form-subscribe__submit">
+      <circle r="10.5" cy="11" cx="11" fill="#00B0FF" stroke="#00B0FF" stroke-width="2" stroke-opacity="0.4"/>
+      <path fill-opacity="0" stroke-linecap="round" stroke="#fff" d="m11,6l5,5l-5,5m5,-5l-11,0"/>
+    </g>
+    <path id="rounded-line" stroke-linecap="round" stroke-width="2" d="m1,1l8,0m-8,4l8,0m-8,4l8,0"/>
+  </defs>
+  <g stroke="#F2D800">
+    <use xlink:href="#zigzag"/>
+    <use xlink:href="#zigzag" x="6.33"/>
+    <use xlink:href="#zigzag" x="12.66"/>
+  </g>
+  <g stroke="#000" transform="translate(0 30)">
+    <use xlink:href="#zigzag"/>
+    <use xlink:href="#zigzag" x="6.33"/>
+    <use xlink:href="#zigzag" x="12.66"/>
+    <use xlink:href="#zigzag" x="18.99"/>
+    <use xlink:href="#zigzag" x="25.32"/>
+  </g>
+  <g stroke="#0023ff" transform="translate(40 30)">
+    <use xlink:href="#zigzag"/>
+    <use xlink:href="#zigzag" x="6.33"/>
+    <use xlink:href="#zigzag" x="12.66"/>
+    <use xlink:href="#zigzag" x="18.99"/>
+    <use xlink:href="#zigzag" x="25.32"/>
+  </g>
+  <use xlink:href="#arrow" y="50" stroke="#000"/>
+  <use xlink:href="#arrow" y="50" x="30" stroke="#fff"/>
+  <use xlink:href="#arrow" y="50" x="60" stroke="#646464"/>
+  <use xlink:href="#arrow" y="50" x="90" stroke="#0022ff"/>
+  <use xlink:href="#cross" y="85" stroke="#000" stroke-width="2"/>
+  <use xlink:href="#logo-facebook" y="110" stroke-width="0"/>
+  <use xlink:href="#logo-facebook" y="110" x="30" fill="#fff" stroke-width="0"/>
+  <use xlink:href="#logo-instagram" y="140" stroke-width="0"/>
+  <use xlink:href="#logo-instagram" y="140" x="30" fill="#fff" stroke-width="0"/>
+  <use xlink:href="#logo-email" y="175" stroke-width="0"/>
+  <use xlink:href="#logo-email" y="175" x="30" fill="#fff" stroke-width="0"/>
+  <use xlink:href="#logo-email" y="175" x="60" filter="url(#grayscale-sepia)" stroke="#000"/>
+  <use xlink:href="#star" y="200" fill="#f2d800"/>
+  <use xlink:href="#star" fill-opacity="0" stroke="#606060" stroke-width="2"
+      transform="translate(25 202) scale(0.73)"/>
+  <use xlink:href="#delimiter-location" y="225" fill="#d9d9d9"/>
+  <use xlink:href="#delimiter-location" y="225" x="20" fill="#b3e7ff"/>
+  <use xlink:href="#form-subscribe__submit" y="250" x="1"/>
+  <use xlink:href="#rounded-line" y="290" stroke="#000"/>
+  <use xlink:href="#rounded-line" y="290" x="20" stroke="#676767"/>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "name": "surfers-co",
+  "version": "1.0.0",
+  "description": "Study site with surfers theme.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o ./ scss",
+    "serve": "browser-sync start --server ./ --files ./",
+    "watch:css": "onchange 'scss/*.scss' -- npm run scss",
+    "watch": "run-p serve watch:css",
+    "postinstall": "run-s scss watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gendalf7771/Surfers-Co.git"
+  },
+  "keywords": [
+    "surfing",
+    "surfboards",
+    "shop"
+  ],
+  "author": "Eugen Nekrasov",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gendalf7771/Surfers-Co/issues"
+  },
+  "homepage": "https://github.com/gendalf7771/Surfers-Co",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "onchange": "^3.3.0"
+  }
+}
