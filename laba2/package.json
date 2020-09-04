@@ -27,7 +27,7 @@
   "homepage": "https://github.com/gendalf7771/Surfers-Co",
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0"
   }
